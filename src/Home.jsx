@@ -4,9 +4,9 @@ function Home(){
 return(
 
     
-    <section id="home" className="h-full w-full left-0 absolute bg-black mt-10 ">
-   <div>
-    <p className="text-green-400 font-bold text-2xl mt-80">GROWING WITH DATA ANALYTICS</p>
+    <section id="home" className="md:h-full lg:h-full h-210 w-full left-0 absolute bg-black mt-10 ">
+   <div className=" md:mt-70 lg:mt-70 mt-50 px-10">
+    <p className="text-green-400 font-bold  text-4xl ">GROWING WITH DATA ANALYTICS</p>
     <h1 className="text-white md:text-7xl sm:text-6xl text-4xl font-bold mt-10">Grow with data.</h1>
     <div className="text-white flex justify-center">
         <p className="md:text-5xl sm:text-4xl text-xl font-bold">Fast, flexible financing for  </p>

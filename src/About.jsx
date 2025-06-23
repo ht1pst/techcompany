@@ -4,8 +4,8 @@ import new1 from '../src/assets/newtech1.png';
 function About(){
 return(
 
-<section id="about" className="mt-300 h-full lg:bg-white left-0 absolute w-full  lg:pt-10 ">
-   <div className="flex flex-col md:flex-col lg:flex-row  justify-center gap-20" >
+<section id="about" className="mt-250  h-full lg:bg-white left-0 absolute w-full  lg:pt-10 ">
+   <div className="flex flex-col md:flex-col lg:flex-row  mt-20 justify-center gap-20 px-10" >
     <div><img src={new1} alt=""  className="md:w-100 mx-auto "/></div>
     <div>
         <p className="text-green-400 font-bold">DATA ANALYTICS DASHBOARD</p>
@@ -14,7 +14,6 @@ return(
     <button className="bg-black text-green-400 w-55 h-10 md:h-15 rounded-xl mt-5 font-bold transition hover:scale-120">Get started</button>
     </div>
    </div>
-
 </section>
 )
 
